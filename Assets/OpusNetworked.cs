@@ -1,11 +1,8 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.Networking;
-using UnityEngine.Networking.NetworkSystem;
-using System.Text;
 using POpusCodec;
 using System.Collections.Generic;
-using System;
+
+using Mirror;
 
 [RequireComponent(typeof(AudioSource))]
 [RequireComponent(typeof(NetworkIdentity))]
